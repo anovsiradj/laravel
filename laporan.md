@@ -35,12 +35,23 @@ Sudah satu paket dengan instalasi. Tinggal pakai.
 # Controller
 
 Pembuatannya sangat mudah jika menggunakan artisan.
-Satu perintah, langsung dibuatkan ct-nya sekaligus method defaultnya.
+Satu perintah, langsung dibuatkan ct-nya sekaligus namespace default yg dibutuhkannya.
+
+Masalah parameter yg kosong, lrvl sudah ada handlenya.
 
 ---
 
+# Routing
 
+Penggunaan routingnya cukup mudah. kita bisa definisikan sendiri.
+Banyak pilihan metode penggunaannya.
 
+Sayangnya, pada Route::controller, nama methodnya harus diberi prefix getNamaMethod.
 
+---
 
+# View (Blade)
+# Benar2 terpisah dari controller.
+
+---
 
