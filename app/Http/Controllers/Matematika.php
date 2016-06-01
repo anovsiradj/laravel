@@ -10,7 +10,9 @@ class Matematika extends Controller
 {
 	public function getIndex()
 	{
-		return view('mtk.operator');
+		return view('mtk.operator',[
+			'di_index' => true
+		]);
 	}
 	public function getTambah($a,$b)
 	{
